@@ -1,0 +1,8 @@
+ a) Vantagens da utilização de funções: Permite reduzir o tempo de codificação, ao invés de reescrever o código
+podemos simplesmente chamar a função especifica, reduzindo o tamanho do programa e melhora a legibilidade, essa 
+prática também torna mais eficiente o preocesso de manutenção e correção de problemas.
+
+b) Características da utilização de passagens de parâmentros por valor: Utilizar uma passagem de parâmetro por 
+valor permite ser usada ea alterada dentro de uma função sem afetar a variável da qual foi gerada.
+
+c) Objetivos da instrução return: Encera a execução de uma função e retorna o controle para a função de chamada.
