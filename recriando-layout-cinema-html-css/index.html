@@ -1,0 +1,149 @@
+<!DOCTYPE html >
+<html lang="pt">
+	
+	<head>
+		<meta charset="utf-8"/>
+		<title>avaliação 8.2</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+			
+	</head>
+		
+		
+		<body>
+		
+			
+			<div id="conteiner">
+				
+				
+				<div id="header">
+					<h1>Ingressos OnLine</h1>
+				</div>
+				
+				<div id="artigos">
+				<section>
+					<article>
+						<header>
+							<h2> A Garota do trem</h2>
+						</header>
+						<section>
+							<img src="img/trem.jpg" alt="garota no trem" width="95" height="85">
+							<p>Baseado no romance best-seller de Paula Hawkins. No suspense, Rachel, que está desolada por seu divórcio recente, passa seu tempo indo para o trabalho fantasiando sobre o casal aparentemente perfeito que vive em uma casa onde seu trem passa todos os dias, até que em uma manhã ela vê algo chocante acontecer lá e se torna parte de um mistério que se desdobra</p>
+						</section>
+					</article>
+					
+				
+					<article>
+						<header>
+							<h2>Dr. Estranho</h2>
+						</header>
+						<section>
+							<img src="img/estranho.jpg" alt="rosto do dr estranho" width="95" height="85">
+							<p>Um cirurgião com sua carreira destruída, volta a ter vontade de viver depois que um feiticeiro o treina para defender o mundo do mal.</p>
+						</section>
+					</article>	
+					
+					<article>
+						<header>
+							<h2>O contador</h2>
+						</header>
+						<section>
+							<img src="img/contador.jpg" alt="o contador" width="95" height="85">
+							<p>Christian Wolff é um gênio da matemática que tem mais afinidade com os números do que com pessoas. Sua vida pacata parece se resumir à gerência de um pequeno escritório de contabilidade em Atlanta. O burocrático negócio, no entanto, serve apenas como fachada para seu verdadeiro trabalho: ele manipula os números para algumas das organizações criminosas mais perigosas do mundo.</p>
+						</section>
+					</article>
+					
+					<article>
+						<header>
+							<h2>Trolls</h2>
+						</header>
+						<section>
+							<img src="img/trolls.jpg" alt="trolls" width="95" height="85">
+							<p>Ramo parte para uma jornada de descobertas e aventuras ao lado de Poppy, líder dos Trolls. Inicialmente inimigos, conforme os desafios são superados eles descobrem que no fundo combinam.</p>
+						</section>
+					</article>
+				</div>
+				
+				</section>
+				
+			</div>
+				
+			<aside>
+				<form id="form1" method="post" action="processa.html">
+				<fieldset>
+				<legend> Dados do Comprador</legend>
+					<p>
+						<label for="campo-nome">Nome:</label>
+						<input id="campo-nome" type="text" size="14" placeholder="Nome">
+					</p>
+					
+					<p>
+						<label for="campo-cartao">Cartão:</label>
+						<input id="campo-cartao" type="text" size="14" placeholder="Número do Cartão">
+					</p>
+				</fieldset>
+			
+				<fieldset>
+				<legend>Ingressos</legend>
+				
+					<p>
+						<label for="campo-file">Filme:</label>
+						<select name="filme">
+							<option value=1>A Garota do Trem</option>
+							<option value=2>Dr. Estranho</option>
+							<option value=3>O contador</option>
+							<option value=4>Trolls</option>
+						</select>
+						
+					</p>
+					
+					<p>
+						<label for="campo-horario">Horário:</label>
+						<select name="horario">
+							<option value=1>18:00</option>
+							<option value=2>19:00</option>
+							<option value=3>20:00</option>
+							<option value=4>22:00</option>
+						</select>
+						
+					</p>
+					<p>
+						<label for="campo-inteira">Inteira:</label>
+						<input id="campo-inteira" type="text" size="14">
+					</p>
+					<p>
+						<label for="campo-meia">Meia:</label>
+						<input id="campo-meia" type="text" size="14">
+					</p>
+				
+					</fieldset>
+			
+					<fieldset>
+					<legend>Resumo</legend>
+						<p>
+							<label for="campo-quantidade">Total:</label>
+							<input id="campo-quantidade" type="text" size="14" placeholder="Total">
+						</p>
+					</fieldset>
+					
+					
+						<p>
+							<button> 
+								<label>Comprar</label>
+							
+							</button>
+						</p>
+				
+					
+					</form>
+			</aside>
+			
+			 
+					<footer>
+					<p>MEIA ENTRADA ÀS SEGUNDAS-FEIRAS</P>
+					</footer>
+		
+			
+	</body>
+	
+</html>			
